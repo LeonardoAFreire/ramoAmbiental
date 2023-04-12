@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 120px;
+}
+
+.links-menu {
+  display: flex;
+  gap: 12px;
+  font-size: 1.5rem;
+}
+
+.links-menu a {
+  display: block;
+  font-weight: bold;
+  padding: 5px 10px;
+}
+
+.links-menu a::after {
+  content: '';
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: var(--cor-p3);
+  transition: 0.3s;
+}
+
+.links-menu a:hover::after {
+  width: 100%;
+}

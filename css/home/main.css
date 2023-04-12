@@ -1,0 +1,37 @@
+.bg-principal {
+  background-image: url('/img/fundo1.jpg');
+  height: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main {
+  padding: 120px 0 120px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main h1,
+a,
+p {
+  font-weight: bold;
+}
+
+.main p {
+  max-width: 40ch;
+}
+
+.main h1 {
+  margin-bottom: 20px;
+}
+
+.main .btn {
+  margin-top: 40px;
+  font-weight: bold;
+  place-self: center;
+}
