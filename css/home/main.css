@@ -8,7 +8,7 @@
 }
 
 .main {
-  padding: 120px 0 120px 0;
+  padding: 120px 20px 120px 20px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -34,4 +34,10 @@ p {
   margin-top: 40px;
   font-weight: bold;
   place-self: center;
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 60px 20px 60px 20px;
+  }
 }

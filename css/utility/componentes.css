@@ -9,6 +9,7 @@
   transition: 0.4s;
   position: relative;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .btn::after {
@@ -26,4 +27,16 @@
 
 .btn:hover::after {
   width: 100%;
+}
+
+@media (max-width: 600px) {
+  .btn {
+    padding: 12px 24px;
+  }
+}
+
+@media (max-width: 450px) {
+  .btn {
+    padding: 8px 16px;
+  }
 }
