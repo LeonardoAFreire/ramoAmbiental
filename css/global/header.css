@@ -43,3 +43,9 @@
     color: var(--cor-0);
   }
 }
+
+@media (max-width: 450px) {
+  .logo {
+    width: 90px;
+  }
+}

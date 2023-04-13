@@ -2,18 +2,12 @@
   background-image: url('../../img/fundo3.jpg');
   height: 100%;
   max-width: 100%;
-  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .main {
   padding: 120px 20px 120px 20px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .main h1,
@@ -39,5 +33,10 @@ p {
 @media (max-width: 600px) {
   .main {
     padding: 60px 20px 60px 20px;
+    text-align: center;
+  }
+
+  .bg-principal {
+    background-position: left top;
   }
 }
