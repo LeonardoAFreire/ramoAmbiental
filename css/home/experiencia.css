@@ -55,6 +55,7 @@
 .numero-contador {
   font-size: 3.5rem;
   position: relative;
+  font-family: sans-serif;
 }
 
 .numero-contador::before {

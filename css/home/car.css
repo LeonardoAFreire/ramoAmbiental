@@ -13,10 +13,22 @@
 }
 
 .car-informacoes {
-  background-color: #141e30;
+  background: #141e30; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #243b55,
+    #141e30
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   color: var(--cor-0);
   padding-left: 20px;
   padding-top: 120px;
+  padding-right: 20px;
 }
 
 .texto-car {
@@ -28,7 +40,7 @@
 .car-info {
   margin-top: 100px;
   display: flex;
-  justify-content: space-around;
+  gap: 60px;
 }
 
 .car-lista p {
@@ -45,9 +57,48 @@
   justify-content: space-between;
 }
 
+.car-lista li h3 {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.car-lista li h3::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: var(--cor-p4);
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+
 .img-car {
   height: 400px;
   width: 400px;
   border-radius: 100%;
-  border: 2px solid var(--cor-p2);
+  border: 2px solid var(--cor-p4);
+}
+
+.car-informacoes {
+  display: flex;
+  flex-direction: column;
+}
+
+.car-informacoes h2 {
+  font-weight: bold;
+}
+
+.car-informacoes h2 {
+  margin-bottom: 6px;
+}
+
+.img-satelite {
+  width: 200px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+  place-self: center;
+}
+
+.car-informacoes p + h2 {
+  margin-top: 20px;
 }
