@@ -102,3 +102,19 @@
 .car-informacoes p + h2 {
   margin-top: 20px;
 }
+
+.botao-car {
+  border-color: var(--cor-p4);
+  color: var(--cor-0);
+  margin-top: 100px;
+  font-weight: bold;
+  margin-left: 30%;
+}
+
+.botao-car::after {
+  background-color: var(--cor-p4);
+}
+
+.botao-car:hover {
+  color: var(--cor-p4);
+}
