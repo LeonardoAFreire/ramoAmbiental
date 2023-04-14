@@ -1,0 +1,63 @@
+.experiencia-bg {
+  background: #273a24; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #273a24,
+    #386631
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #273a24,
+    #386631
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.experiencia {
+  padding: 120px 20px 120px 20px;
+}
+
+.experiencia-titulo {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.experiencia-titulo::after {
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: var(--cor-p6);
+  display: block;
+  margin-top: 16px;
+}
+
+.experiencia-contador ul {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(2, minmax(320px, 600px));
+  justify-content: center;
+  gap: 16px;
+}
+
+.experiencia-contador ul li {
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.3);
+  padding: 40px 20px 40px 20px;
+  border-radius: 4px;
+  background: #1d2b1a;
+}
+
+.lista-contador h3 {
+  margin-top: 6px;
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+.numero-contador {
+  font-size: 3.5rem;
+  position: relative;
+}
+
+.numero-contador::before {
+  content: '+';
+  position: absolute;
+  left: -40px;
+}
