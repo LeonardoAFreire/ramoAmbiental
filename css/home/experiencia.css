@@ -27,7 +27,8 @@
   height: 2px;
   background: var(--cor-p6);
   display: block;
-  margin-top: 16px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .experiencia-contador ul {
@@ -60,4 +61,17 @@
   content: '+';
   position: absolute;
   left: -40px;
+}
+
+@media (max-width: 600px) {
+  .experiencia-contador ul {
+    grid-template-columns: 1fr;
+  }
+  .experiencia {
+    padding: 40px 20px 40px 20px;
+  }
+  .experiencia-titulo::after {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
