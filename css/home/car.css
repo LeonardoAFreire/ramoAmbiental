@@ -60,16 +60,6 @@
 }
 
 .botao-car {
-  border-color: var(--cor-p4);
-  color: var(--cor-0);
   font-weight: bold;
   margin-top: 60px;
-}
-
-.botao-car::after {
-  background: var(--cor-p4);
-}
-
-.botao-car:hover {
-  border-color: var(--cor-0);
 }
