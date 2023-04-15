@@ -2,6 +2,7 @@
   background-image: url(../../img/fotoCarE.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .car {
@@ -59,14 +60,14 @@
 }
 
 .botao-car {
-  border-color: #093028;
+  border-color: var(--cor-p4);
   color: var(--cor-0);
   font-weight: bold;
   margin-top: 60px;
 }
 
 .botao-car::after {
-  background: #093028; /* fallback for old browsers */
+  background: var(--cor-p4);
 }
 
 .botao-car:hover {
