@@ -98,3 +98,9 @@
     margin-top: 40px;
   }
 }
+
+@media (max-width: 450px) {
+  .car-section {
+    background-image: url('../../img/fotoCarMobile.jpg');
+  }
+}
