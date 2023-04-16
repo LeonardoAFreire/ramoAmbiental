@@ -13,6 +13,7 @@
 
 .car h2 {
   display: inline-block;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .car h2::after {
@@ -78,6 +79,9 @@
 }
 
 @media (max-width: 600px) {
+  .car-section {
+    background-attachment: scroll;
+  }
   .car-lista {
     grid-template-columns: 1fr;
   }
@@ -88,5 +92,9 @@
 
   .car {
     padding: 40px 20px 40px 20px;
+    text-align: center;
+  }
+  .car-info {
+    margin-top: 40px;
   }
 }
