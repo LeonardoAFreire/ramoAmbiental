@@ -30,6 +30,7 @@
   margin-bottom: 40px;
   max-width: 75ch;
   font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .car-info {
@@ -101,6 +102,6 @@
 
 @media (max-width: 450px) {
   .car-section {
-    background-image: url('../../img/fotoCarMobile.jpg');
+    background-position: center;
   }
 }
