@@ -43,4 +43,7 @@ p {
 }
 
 @media (max-width: 500px) {
+  .bg-principal {
+    background-position: center;
+  }
 }
