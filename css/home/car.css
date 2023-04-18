@@ -48,7 +48,7 @@
 
 .car-lista li {
   min-width: 250px;
-  background-color: rgba(25, 41, 22, 0.6);
+  background-color: rgba(25, 41, 22, 0.75);
   text-align: center;
   padding: 20px;
   border-radius: 20px;
@@ -79,6 +79,12 @@
   place-self: center;
 }
 
+@media (max-width: 900px) {
+  .car {
+    padding: 40px 20px 40px 20px;
+  }
+}
+
 @media (max-width: 600px) {
   .car-section {
     background-attachment: scroll;
@@ -92,7 +98,6 @@
   }
 
   .car {
-    padding: 40px 20px 40px 20px;
     text-align: center;
   }
   .car-info {

@@ -1,7 +1,7 @@
 /* Global */
 @import './global/header.css';
 @import './global/global.css';
-
+@import './global/footer.css';
 /* Utility */
 @import './utility/cores.css';
 @import './utility/tipografia.css';
@@ -12,3 +12,5 @@
 @import './home/experiencia.css';
 @import './home/car.css';
 @import './home/servicos.css';
+@import './home/sobre.css';
+@import './home/contato.css';

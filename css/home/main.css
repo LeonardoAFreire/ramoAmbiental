@@ -12,7 +12,6 @@
 }
 
 .main h1,
-a,
 p {
   font-weight: bold;
 }
@@ -31,9 +30,14 @@ p {
   place-self: center;
 }
 
+@media (max-width: 900px) {
+  .main {
+    padding: 40px 20px 40px 20px;
+  }
+}
+
 @media (max-width: 600px) {
   .main {
-    padding: 60px 20px 60px 20px;
     text-align: center;
   }
 

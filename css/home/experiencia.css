@@ -64,13 +64,17 @@
   left: -40px;
 }
 
+@media (max-width: 900px) {
+  .experiencia {
+    padding: 40px 20px 40px 20px;
+  }
+}
+
 @media (max-width: 600px) {
   .experiencia-contador ul {
     grid-template-columns: 1fr;
   }
-  .experiencia {
-    padding: 40px 20px 40px 20px;
-  }
+
   .experiencia-titulo::after {
     margin-top: 20px;
     margin-bottom: 20px;

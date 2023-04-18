@@ -1,0 +1,40 @@
+.sobre-bg {
+  background: #fefefe;
+}
+
+.sobre {
+  padding: 120px 20px 120px 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.sobre h2 {
+  display: inline-block;
+}
+
+.sobre h2::after {
+  content: '';
+  display: block;
+  width: 100%;
+  background: var(--cor-p3);
+  height: 2px;
+  margin-top: 4px;
+}
+
+.sobre p {
+  margin-top: 20px;
+  max-width: 75ch;
+}
+
+.img-sobre {
+  justify-self: center;
+}
+
+@media (max-width: 900px) {
+  .sobre {
+    grid-template-columns: 1fr;
+    padding: 40px 20px 40px 20px;
+  }
+}

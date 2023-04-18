@@ -1,0 +1,7 @@
+.footer {
+  background: var(--cor-0);
+  display: grid;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
+}
