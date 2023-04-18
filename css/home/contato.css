@@ -54,6 +54,7 @@
   width: 20px;
   height: 20px;
   background: url(../../img/telefone.svg);
+  background-repeat: no-repeat;
 }
 
 .email,
@@ -61,6 +62,7 @@
 .whats {
   transition: 0.3s;
   cursor: pointer;
+  padding: 2px;
 }
 
 .email:hover,
@@ -75,6 +77,7 @@
   width: 20px;
   height: 20px;
   background: url(../../img/email.svg);
+  background-repeat: no-repeat;
 }
 
 .whats::before {
@@ -83,6 +86,7 @@
   width: 20px;
   height: 20px;
   background: url(../../img/whatsapp-icon.svg);
+  background-repeat: no-repeat;
 }
 
 .lista-contato li {
