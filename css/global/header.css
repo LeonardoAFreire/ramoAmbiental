@@ -22,6 +22,7 @@
   display: block;
   font-weight: bold;
   padding: 5px 10px;
+  border-radius: 4px;
 }
 
 .links-menu a::after {
@@ -66,7 +67,7 @@
     background: var(--cor-p3);
     height: 0px;
     z-index: 1000;
-    transition: 0.3s;
+    transition: 1s;
     overflow-y: hidden;
     visibility: hidden;
   }
@@ -127,5 +128,9 @@
     gap: 0px;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .links-menu a {
+    border-radius: 0px;
   }
 }

@@ -12,7 +12,8 @@
 }
 
 .main h1,
-p {
+.main p,
+.main a {
   font-weight: bold;
 }
 
@@ -51,6 +52,6 @@ p {
 
 @media (max-width: 500px) {
   .bg-principal {
-    background-position: center;
+    background-image: url('../../img/fotoMainMobile.jpg');
   }
 }

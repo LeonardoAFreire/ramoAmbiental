@@ -89,6 +89,15 @@
   background-repeat: no-repeat;
 }
 
+.horario::before {
+  content: '';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: url(../../img/horario.svg);
+  background-repeat: no-repeat;
+}
+
 .lista-contato li {
   display: flex;
   align-items: center;
