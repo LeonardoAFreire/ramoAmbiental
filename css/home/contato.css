@@ -98,6 +98,20 @@
   background-repeat: no-repeat;
 }
 
+.horario::after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #111;
+  background: red;
+  border-radius: 100%;
+}
+
+.horario.aberto::after {
+  background-color: #00ff00;
+}
+
 .lista-contato li {
   display: flex;
   align-items: center;
