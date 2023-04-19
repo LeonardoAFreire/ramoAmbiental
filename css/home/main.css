@@ -18,16 +18,19 @@ p {
 
 .main p {
   max-width: 40ch;
+  animation: showLeft 2s forwards;
 }
 
 .main h1 {
   margin-bottom: 20px;
+  animation: showDown 2s forwards;
 }
 
 .main .btn {
   margin-top: 40px;
   font-weight: bold;
   place-self: center;
+  animation: showUp 2s forwards;
 }
 
 @media (max-width: 900px) {
