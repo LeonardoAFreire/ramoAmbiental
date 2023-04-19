@@ -5,6 +5,7 @@
   border: 4px solid var(--cor-0);
   background-color: transparent;
   text-transform: uppercase;
+  font-weight: bold;
   max-width: max-content;
   cursor: pointer;
   transition: 0.4s;
