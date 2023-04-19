@@ -95,16 +95,20 @@
   gap: 8px;
 }
 
+.mapa iframe {
+  max-width: 100%;
+  width: 100%;
+}
+
 @media (max-width: 1024px) {
   .contato {
     padding: 40px 20px 40px 20px;
     grid-template-columns: 1fr;
+    justify-content: center;
   }
 
   .mapa iframe {
     margin-top: 20px;
-    width: 100%;
-    max-width: 100%;
   }
 }
 
