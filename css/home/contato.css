@@ -103,7 +103,7 @@
   display: block;
   width: 12px;
   height: 12px;
-  border: 1px solid #111;
+  border: 2px solid #111;
   background: red;
   border-radius: 100%;
 }
