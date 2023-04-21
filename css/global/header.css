@@ -25,7 +25,7 @@
   border-radius: 4px;
 }
 
-.links-menu a::after {
+/* .links-menu a::after {
   content: '';
   display: block;
   width: 0%;
@@ -36,26 +36,76 @@
 
 .links-menu a:hover::after {
   width: 100%;
-}
+} */
 
 #btn-mobile {
   display: none;
 }
 
-@media (max-width: 960px) {
-  .links-menu a {
-    background-color: var(--cor-p3);
-    color: var(--cor-0);
-  }
+.dropdown-menu {
+  position: relative;
+}
 
+.dropdown-links::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: -10px;
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #d15618;
+}
+
+.dropdown-links {
+  display: none;
+  background: #d15618;
+  color: var(--cor-0);
+  position: absolute;
+  padding: 10px;
+  z-index: 1;
+  left: 10px;
+}
+
+.dropdown-menu:hover .dropdown-links {
+  display: block;
+  animation: animaDropDown 0.3s forwards;
+}
+
+.dropdown-links li {
+  background: transparent;
+}
+
+.dropdown-links li a {
+  display: block;
+  border-radius: none;
+}
+
+.dropdown-links li a:hover {
+  color: var(--cor-p3);
+}
+
+.dropdown-links li a::after {
+  display: none;
+}
+
+@media (max-width: 960px) {
   .logo {
     width: 90px;
   }
 }
 
 @media (max-width: 600px) {
+  .links-menu a {
+    color: var(--cor-0);
+  }
   #btn-mobile {
     display: block;
+  }
+
+  .dropdown-links {
+    padding: 0;
   }
 
   #menu {
@@ -67,7 +117,7 @@
     background: var(--cor-p3);
     height: 0px;
     z-index: 1000;
-    transition: 1s;
+    transition: 0.5s;
     overflow-y: hidden;
     visibility: hidden;
   }
@@ -79,8 +129,7 @@
   }
 
   #menu a {
-    padding: 1rem 0rem;
-    margin: 0 1rem;
+    padding: 1rem 1rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   }
   #btn-mobile {
@@ -123,7 +172,11 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
+  .links-menu a::after {
+    display: none;
+  }
+
   .header {
     gap: 0px;
     align-items: center;
@@ -132,5 +185,23 @@
 
   .links-menu a {
     border-radius: 0px;
+  }
+
+  .dropdown-links {
+    display: none;
+    position: initial;
+    z-index: 1;
+    left: 10px;
+  }
+}
+
+@keyframes animaDropDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 30px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
   }
 }
