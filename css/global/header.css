@@ -68,7 +68,8 @@
   left: 10px;
 }
 
-.dropdown-menu:hover .dropdown-links {
+.dropdown-menu:hover .dropdown-links,
+[data-dropdown].ativo .dropdown-links {
   display: block;
   animation: animaDropDown 0.3s forwards;
 }
@@ -92,7 +93,7 @@
 
 @media (max-width: 960px) {
   .logo {
-    width: 120px;
+    width: 140px;
   }
 }
 
@@ -112,7 +113,7 @@
     display: block;
     position: absolute;
     width: 100%;
-    top: 88px;
+    top: 96px;
     left: 0px;
     background: var(--cor-p3);
     height: 0px;
@@ -123,7 +124,7 @@
   }
 
   #nav.active #menu {
-    height: calc(100vh - 88px);
+    height: calc(100vh - 96px);
     visibility: visible;
     overflow-y: auto;
   }
