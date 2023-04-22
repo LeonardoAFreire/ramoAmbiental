@@ -34,13 +34,13 @@
   animation: showUp 2s forwards;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 56.25rem) {
   .main {
     padding: 40px 20px 40px 20px;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .main {
     text-align: center;
   }
@@ -50,7 +50,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 31.25rem) {
   .bg-principal {
     background-image: url('../../img/fotoMainMobile.jpg');
   }

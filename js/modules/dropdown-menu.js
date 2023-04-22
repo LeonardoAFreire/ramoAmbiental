@@ -1,12 +1,11 @@
 export default function initDropDownMenu() {
   const dropdown = document.querySelector('[data-dropdown');
 
-  ['click', 'touchstart'].forEach((userEvent) => {
-    dropdown.addEventListener(userEvent, handleClick);
-  });
+  dropdown.addEventListener('click', handleClick);
 
-  function handleClick() {
+  function handleClick(event) {
     this.classList.toggle('ativo');
+    event.preventDefault();
     outsideClick(this);
   }
 }

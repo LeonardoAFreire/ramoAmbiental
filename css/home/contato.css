@@ -123,7 +123,7 @@
   width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 64rem) {
   .contato {
     padding: 40px 20px 40px 20px;
     grid-template-columns: 1fr;
@@ -135,7 +135,7 @@
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 56.25rem) {
   .mapa iframe {
     height: 300px;
   }
