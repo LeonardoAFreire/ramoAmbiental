@@ -3,7 +3,6 @@ export default function initDropDownMenu() {
 
   if (dropdown) {
     dropdown.addEventListener('click', handleClick);
-
     function handleClick(event) {
       this.classList.toggle('ativo');
       event.preventDefault();

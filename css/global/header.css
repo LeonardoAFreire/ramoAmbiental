@@ -68,10 +68,16 @@
   left: 10px;
 }
 
-.dropdown-menu:hover .dropdown-links,
 [data-dropdown].ativo .dropdown-links {
   display: block;
   animation: animaDropDown 0.3s forwards;
+}
+
+@media (min-width: 1024px) {
+  .dropdown-menu:hover .dropdown-links {
+    display: block;
+    animation: animaDropDown 0.3s forwards;
+  }
 }
 
 .dropdown-links li {
@@ -190,7 +196,7 @@
 
   .dropdown-links {
     display: none;
-    position: initial sudo;
+    position: initial;
     z-index: 1;
     left: 10px;
   }
