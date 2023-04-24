@@ -44,8 +44,8 @@
 }
 
 .servicos-lista li {
-  display: flex;
-  gap: 8px;
+  position: relative;
+  margin-left: 24px;
 }
 
 .servicos-lista li + li {
@@ -55,10 +55,14 @@
 .servicos-lista li::before {
   content: '';
   background: url('../../img/sustentavel.svg');
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
   background-repeat: no-repeat;
+  background-size: cover;
   display: block;
+  position: absolute;
+  left: -24px;
+  top: 1px;
 }
 
 @media (max-width: 37.5rem) {

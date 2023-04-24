@@ -1,0 +1,33 @@
+.bg-licenciamento-ambiental,
+.bg-regularizacao-fundiaria {
+  background: #273a24; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #273a24,
+    #386631
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #273a24,
+    #386631
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.projetos-bg {
+  padding: 60px 20px 60px 20px;
+}
+
+.texto-projetos {
+  max-width: 75ch;
+}
+
+.texto-projetos {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 500px) {
+  .projetos-bg {
+    padding: 40px 20px 40px 20px;
+  }
+}
