@@ -190,7 +190,7 @@
 
   .dropdown-links {
     display: none;
-    position: initial;
+    position: initial sudo;
     z-index: 1;
     left: 10px;
   }

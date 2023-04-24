@@ -42,6 +42,25 @@
   box-sizing: border-box;
   padding: 20px;
 }
+
+.servicos-lista li {
+  display: flex;
+  gap: 8px;
+}
+
+.servicos-lista li + li {
+  margin-top: 12px;
+}
+
+.servicos-lista li::before {
+  content: '';
+  background: url('../../img/sustentavel.svg');
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: block;
+}
+
 @media (max-width: 37.5rem) {
   .btn {
     padding: 12px 24px;

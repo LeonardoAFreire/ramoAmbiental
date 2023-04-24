@@ -1,6 +1,6 @@
 export default function initAnimaNumeros() {
   const numeros = document.querySelectorAll('[data-number]');
-  if (numeros) {
+  if (numeros.length) {
     limpaNumeros(numeros);
 
     function animaNumeros() {

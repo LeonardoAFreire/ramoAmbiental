@@ -1,0 +1,12 @@
+.licenciamento-ambiental {
+  padding: 60px 20px 60px 20px;
+}
+
+.licenciamento-ambiental p {
+  max-width: 75ch;
+}
+
+.texto-licenciamento {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
