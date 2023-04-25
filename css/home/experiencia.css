@@ -46,6 +46,11 @@
   background: #284025;
 }
 
+.lista-contador li {
+  display: grid;
+  justify-items: center;
+}
+
 .lista-contador h3 {
   margin-top: 6px;
   font-size: 2rem;
@@ -70,7 +75,6 @@
 .empresas-mt {
   width: 90px;
   height: 90px;
-  margin: 0 auto;
 }
 
 @media (max-width: 56.25rem) {
