@@ -4,7 +4,10 @@
   align-items: center;
   padding: 20px;
   box-sizing: border-box;
+  width: 100%;
+  background: var(--cor-0);
 }
+
 .logo {
   width: 200px;
 }
