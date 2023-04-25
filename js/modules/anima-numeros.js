@@ -7,6 +7,8 @@ export default function initAnimaNumeros() {
       numeros.forEach((numero) => {
         const total = +numero.dataset.number;
         const incremento = Math.ceil(total / 100);
+        const seed = total > 200 ? 1.05 : 1.3;
+
         let start = 0;
 
         const timer = setInterval(() => {
@@ -17,7 +19,7 @@ export default function initAnimaNumeros() {
             numero.innerText = total;
             clearInterval(timer);
           }
-        }, 50);
+        }, 50 * seed);
       });
     }
 
