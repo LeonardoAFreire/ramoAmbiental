@@ -1,5 +1,5 @@
 .car-section {
-  background-image: url('../../img/teste-car.jpg');
+  background-image: url('../../img/fotoCar.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -13,7 +13,6 @@
 
 .car h2 {
   display: inline-block;
-  text-shadow: 2px 2px 2px #000;
 }
 
 .car h2::after {
@@ -30,7 +29,6 @@
   margin-bottom: 40px;
   max-width: 75ch;
   font-weight: bold;
-  text-shadow: 2px 2px 2px #000;
 }
 
 .car-info {
