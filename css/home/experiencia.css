@@ -67,6 +67,11 @@
 .mapa-mt {
   margin: 0 auto;
 }
+.empresas-mt {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
 
 @media (max-width: 56.25rem) {
   .experiencia {
