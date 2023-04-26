@@ -46,7 +46,7 @@
   }
 
   .bg-principal {
-    background-attachment: scroll;
+    background-attachment: initial;
   }
 }
 
