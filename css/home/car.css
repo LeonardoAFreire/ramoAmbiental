@@ -85,7 +85,8 @@
 
 @media (max-width: 37.5rem) {
   .car-section {
-    background-attachment: scroll;
+    background-image: url('../../img/fotoCarMobile.jpg');
+    background-attachment: initial;
   }
   .car-lista {
     grid-template-columns: 1fr;

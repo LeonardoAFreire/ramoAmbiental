@@ -76,8 +76,6 @@
 .vantagens-car li {
   position: relative;
   margin-left: 24px;
-  display: flex;
-  align-items: center;
 }
 
 .vantagens-car li::before {
@@ -88,6 +86,7 @@
   height: 24px;
   background: url('../../img/sustentavel.svg');
   left: -24px;
+  top: 0px;
 }
 
 .vantagens-car li + li {
