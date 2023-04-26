@@ -1,5 +1,5 @@
 .car-section {
-  background-image: url('../../img/fotoCar.jpg');
+  background-image: url('/img/fotoCar.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -87,7 +87,7 @@
 
 @media (max-width: 37.5rem) {
   .car-section {
-    background-image: url('../../img/fotoCarMobile.jpg');
+    background-image: url('/img/fotoCarMobile.jpg');
     background-attachment: initial;
     background-size: cover;
     -webkit-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
