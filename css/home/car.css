@@ -13,6 +13,7 @@
 
 .car h2 {
   display: inline-block;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .car h2::after {
@@ -29,6 +30,7 @@
   margin-bottom: 40px;
   max-width: 75ch;
   font-weight: bold;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .car-info {
@@ -87,7 +89,22 @@
   .car-section {
     background-image: url('../../img/fotoCarMobile.jpg');
     background-attachment: initial;
+    background-size: cover;
+    -webkit-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -moz-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -ms-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    -o-transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 0.01s cubic-bezier(0.19, 1, 0.22, 1);
   }
+
+  .car h2 {
+    text-shadow: 2px 2px 2px #000;
+  }
+
+  .texto-car {
+    text-shadow: 2px 2px 2px #000;
+  }
+
   .car-lista {
     grid-template-columns: 1fr;
   }
@@ -100,12 +117,7 @@
     text-align: center;
   }
   .car-info {
-    margin-top: 40px;
-  }
-}
-
-@media (max-width: 28.125rem) {
-  .car-section {
-    background-position: center;
+    margin-top: 0;
+    gap: 40px;
   }
 }
