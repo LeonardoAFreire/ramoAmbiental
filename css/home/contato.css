@@ -139,4 +139,11 @@
   .mapa iframe {
     height: 300px;
   }
+
+  .contato-texto {
+    padding-right: 0px;
+  }
+  .contato {
+    padding-bottom: 0px;
+  }
 }
