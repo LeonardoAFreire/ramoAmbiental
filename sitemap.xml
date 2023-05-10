@@ -3,20 +3,20 @@
 
   <url>
     <loc>https://www.ramoambiental.com.br/</loc>
-    <lastmod>2023-05-07</lastmod>
-    <changefreq>weekly</changefreq>
+    <lastmod>2023-05-10</lastmod>
+    <changefreq>half-yearly</changefreq>
   </url>
 
   <url>
     <loc>https://www.ramoambiental.com.br/projetos</loc>
-    <lastmod>2023-05-07</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2023-05-10</lastmod>
+    <changefreq>half-yearly</changefreq>
   </url>
 
   <url>
     <loc>https://www.ramoambiental.com.br/cadastroambientalrural</loc>
-    <lastmod>2023-05-07</lastmod>
-    <changefreq>yearly</changefreq>
+    <lastmod>2023-05-10</lastmod>
+    <changefreq>half-yearly</changefreq>
   </url>
 
 </urlset>
