@@ -4,19 +4,19 @@
   <url>
     <loc>https://www.ramoambiental.com.br/</loc>
     <lastmod>2023-05-10</lastmod>
-    <changefreq>half-yearly</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
-    <loc>https://www.ramoambiental.com.br/projetos</loc>
+    <loc>https://www.ramoambiental.com.br/consultoria-ambiental</loc>
     <lastmod>2023-05-10</lastmod>
-    <changefreq>half-yearly</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://www.ramoambiental.com.br/cadastroambientalrural</loc>
     <lastmod>2023-05-10</lastmod>
-    <changefreq>half-yearly</changefreq>
+    <changefreq>monthly</changefreq>
   </url>
 
 </urlset>
