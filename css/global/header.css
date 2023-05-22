@@ -9,7 +9,7 @@
 }
 
 .logo {
-  width: 200px;
+  width: 140px;
 }
 
 .links-menu {
@@ -89,7 +89,7 @@
 
 @media (max-width: 60rem) {
   .logo {
-    width: 140px;
+    width: 100px;
   }
 }
 
@@ -109,18 +109,18 @@
     display: block;
     position: absolute;
     width: 100%;
-    top: 96px;
+    top: 130px;
     left: 0px;
     background: var(--cor-p3);
     height: 0px;
     z-index: 1000;
-    transition: 0.5s;
+    transition: 0.4s;
     overflow-y: hidden;
     visibility: hidden;
   }
 
   #nav.active #menu {
-    height: calc(100vh - 96px);
+    height: calc(100vh - 130px);
     visibility: visible;
     overflow-y: auto;
   }
