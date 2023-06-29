@@ -53,7 +53,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url(../../img/telefone.svg);
+  background: url(/img/telefone.svg);
   background-repeat: no-repeat;
 }
 
@@ -76,7 +76,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url(../../img/email.svg);
+  background: url(/img/email.svg);
   background-repeat: no-repeat;
 }
 
@@ -85,7 +85,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url(../../img/whatsapp-icon.svg);
+  background: url(/img/whatsapp-icon.svg);
   background-repeat: no-repeat;
 }
 
@@ -94,7 +94,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url(../../img/horario.svg);
+  background: url(/img/horario.svg);
   background-repeat: no-repeat;
 }
 
@@ -112,7 +112,8 @@
   background-color: #00ff00;
 }
 
-.lista-contato li {
+.lista-contato li,
+.lista-contato a {
   display: flex;
   align-items: center;
   gap: 8px;

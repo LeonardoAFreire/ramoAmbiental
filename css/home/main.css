@@ -1,5 +1,5 @@
 .bg-principal {
-  background-image: url('../img/fotoMain.jpg');
+  background-image: url('/img/fotoMain.jpg');
   height: 100%;
   max-width: 100%;
   background-size: cover;
@@ -52,6 +52,6 @@
 
 @media (max-width: 31.25rem) {
   .bg-principal {
-    background-image: url('../img/fotoMainMobile.jpg');
+    background-image: url('/img/fotoMainMobile.jpg');
   }
 }

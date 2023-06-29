@@ -1,5 +1,5 @@
 :root {
-  --cor-0: #fefefe;
+  --cor-0: #ffff;
   --cor-1: #fff;
 
   --cor-p1: #fff;
@@ -9,6 +9,11 @@
   --cor-p5: #192916;
   --cor-p6: #82bf02;
   --cor-p7: #838b66;
+  --cor-gradient-1: linear-gradient(
+    to right,
+    #376430,
+    #294a24
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .cor-0 {
